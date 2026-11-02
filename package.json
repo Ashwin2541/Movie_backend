@@ -1,0 +1,23 @@
+{
+  "name": "cinepulse-backend",
+  "version": "1.0.0",
+  "description": "Express backend for the CinePulse Movie Explorer - proxies the OMDb API",
+  "main": "server.js",
+  "scripts": {
+     "build": "babel src -d lib",
+    "test": "jest"
+  },
+  "keywords": [
+    "movies",
+    "omdb",
+    "express",
+    "mern"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2"
+  }
+}
