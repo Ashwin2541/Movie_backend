@@ -9,11 +9,11 @@ const errorHandler = require('./src/middleware/errorHandler');
 
 const app = express();
 
-const PORT = 'https://movie-backend-zbsz.onrender.com'
+const PORT = process.env.PORT
 // Comma-separated list of allowed origins, e.g.
 // CLIENT_URL=https://my-frontend.com,http://localhost:5174
 const CLIENT_URLS = (
-  'https://movie-frontend-lovat-kappa.vercel.app'
+  process.env.CLIENT_URL
 )
   .split(',')
   .map((url) => url.trim())
