@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 const OMDB_BASE_URL = 'https://www.omdbapi.com/';
-const API_KEY = af55e318
+const API_KEY = 'af55e318'
 const DETAIL_CACHE_TTL = 10 * 60 * 1000; // 10 minutes
 
 if (!API_KEY) {
